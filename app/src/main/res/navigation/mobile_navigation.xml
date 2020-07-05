@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_homefragment">
+
+    <fragment
+        android:id="@+id/nav_homefragment"
+        android:name="com.kamaldeep.a_eye.UIFragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_reviewAttendanceFragment"
+        android:name="com.kamaldeep.a_eye.UIFragments.ReviewAttendanceFragment"
+        android:label="@string/menu_review_attendance"
+        tools:layout="@layout/fragment_review_attendance" />
+    <fragment
+        android:id="@+id/nav_takeAttendanceFragment"
+        android:name="com.kamaldeep.a_eye.UIFragments.TakeAttendanceFragment"
+        android:label="@string/menu_take_attendance"
+        tools:layout="@layout/fragment_take_attendance" />
+    <fragment
+        android:id="@+id/attendanceReportFragment2"
+        android:name="com.kamaldeep.a_eye.UIFragments.AttendanceReportFragment"
+        android:label="@string/attendance_report_fragment" />
+
+</navigation>
