@@ -4,6 +4,8 @@ A-Eye is a smart attendance monitoring system which can primarily be used in edu
 
 ## System Archetecture
 
+-![System Archetecture](https://github.com/ksdhanjal/A-Eye/blob/master/screenshots/system-architecture.png)
+
 - The app sends REST request to the web-server to get the basic parameters like department, course, subject etc.
 - When the user starts taking attendance, the app streams the video to the NGINX streaming media server via RTMP which is sent to web-server
 -  On the web-server, machine learning algorithms are hosted which processes the video and generates the attendance report which is saved to the database
@@ -17,6 +19,12 @@ A-Eye is a smart attendance monitoring system which can primarily be used in edu
 
 2. Reviewing Attendance
 	- The user fills in basic parameters like subject, period, semester etc. and presses the "Review Attandance" button and attendance report is shown
+	
+## Screenshots
+
+-![Take Attendance](https://github.com/ksdhanjal/A-Eye/blob/master/screenshots/1.PNG)
+
+-![Review Attendance](https://github.com/ksdhanjal/A-Eye/blob/master/screenshots/2.PNG)
 
 ## Acknowledgements
 
